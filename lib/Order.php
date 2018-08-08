@@ -25,7 +25,7 @@
 class Order
 {
     /** @array $amount - Amount is a combination of value and currency */
-    public $amount = ['value' => 19123, 'currency' => "EUR"];
+    public $amount = ['value' => 19123, 'currency' => "USD"];
 
     public function getAmount()
     {
@@ -57,7 +57,7 @@ class Order
     }
 
     /** @var $countryCode - The countryCode influences the returned payment methods */
-    public $countryCode = 'DE';
+    public $countryCode = 'US';
 
     public function getCountryCode()
     {
@@ -72,7 +72,7 @@ class Order
         return $this->channel;
     }
 
-    public $sdkVersion = "1.3.0";
+    public $sdkVersion = "1.3.2";
 
     public function getSDKVersion() 
     {
