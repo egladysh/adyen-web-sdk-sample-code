@@ -41,8 +41,8 @@ class Client
             'sdkVersion' => $order-> getSDKVersion(),
 
             /** Enable / Disable RECURRING **/
-            'enableOneClick' => 'true',
-            'enableRecurring' => 'true',
+            'enableOneClick' => 'false',
+            'enableRecurring' => 'false',
 
 
             /** All server specific settings can be found in config/Config.php */
